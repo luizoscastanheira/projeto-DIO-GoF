@@ -22,3 +22,38 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Outras configuracoes
+
+# === Compilação e Artefatos (Maven/Java) ===
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# === IDE NetBeans ===
+**/nbproject/private/
+**/nbproject/Makefile-*.properties
+**/nbproject/Package-*.properties
+build/
+nbdist/
+.nb-update-snapshots/
+
+# === IDEs Alternativas (Caso abra o projeto em outra ferramenta) ===
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# === Arquivos de Sistema e Log ===
+*.log
+.DS_Store
+Thumbs.db
+
+# === Segurança (Prevenção) ===
+*.env
+*.properties.local
+
